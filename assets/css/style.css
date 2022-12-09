@@ -179,17 +179,17 @@ body{
         border-radius: 30px;
     }
     .input-nome{
-        background-image: url(/assets/img/user_input.png);
+        background-image:url(../img/user_input.png);
         background-repeat: no-repeat;
         background-position: 4px;
     }
     .input-email{
-        background-image: url(/assets/img/email_input.png);
+        background-image: url(../img/email_input.png);
         background-repeat: no-repeat;
         background-position: 4px;
     }
     .input-pass{
-        background-image: url(/assets/img/pass_input.png);
+        background-image: url(../img/pass_input.png);
         background-repeat: no-repeat;
         background-position: 4px;
     }
