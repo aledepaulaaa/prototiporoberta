@@ -4,7 +4,7 @@ body{
     font-family: 'Inter';
 }
 
-@media (max-width: 1264px){
+@media (max-width: 1200px){
 
     .leftbar-login{
         display: flex;
@@ -30,8 +30,15 @@ body{
     .a-link{
         margin-top: 35px;
         text-decoration: none;
+        font-weight: 700;
         color: #ffffff;
      }
+     
+     .a-link:hover{
+        color: #a0a7bb;
+     }
+
+
     .btn-entrar{
         width: 167px;
         height: 50px;
@@ -45,6 +52,11 @@ body{
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
+
+    .btn-entrar:hover{
+        background-color: #c1c9e0;
+    }
+
     .btn-cadastrar{
         width: 167px;
         height: 50px;
@@ -59,6 +71,11 @@ body{
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
+
+    .btn-cadastrar:hover{
+        background-color: #c1c9e0;
+    }
+
     .logo-roberta{
         width: 150px;
         margin: auto auto;
@@ -69,14 +86,14 @@ body{
     
 }
 
-@media (min-width: 1265px){
+@media (min-width: 1200px){
     .leftbar-login{
         position: absolute;
         z-index: 1000;
         width: 278px;
         height: 578px;
-        left: 226px;
-        top: 222px;
+        left: 230px;
+        top: 13.8rem;
         background: #011B72;
         border-radius: 16px 0px 0px 16px;
     }
@@ -96,7 +113,7 @@ body{
     }
     .container-md{
         position: relative;
-        right: 3.5rem;
+        right: 5rem;
         bottom: 3.5rem;
     }
     .h1-text{
@@ -122,6 +139,11 @@ body{
         font-weight: 700;
         color: #fff;
      }
+
+     .a-link:hover{
+        color: #a0a7bb;
+     }
+
     .btn-entrar{
         width: 167px;
         height: 50px;
@@ -134,6 +156,9 @@ body{
         text-transform: uppercase;
         border: 1px solid #FFFFFF;
         border-radius: 30px;
+    }
+    .btn-entrar:hover{
+        background-color: #c1c9e0;
     }
     
     .cadastro{
@@ -149,6 +174,7 @@ body{
         border: 4px solid #011B72;
         height: 50px;
         padding-left: 30px;
+        border-radius: 8px;
     }
     .h1-text-cadastro{
         font-size: 45px;
@@ -177,6 +203,10 @@ body{
         border: 1px solid #011B72;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
+    }
+
+    .btn-cadastrar-2:hover{
+        background-color: #c1c9e0;
     }
     .input-nome{
         background:url(../img/user_input.png);
